@@ -14,6 +14,7 @@ topframe=None
 bottomframe=None
 frame3=None
 login=None
+guest=None
 #command for login button
 def GET():
     global userbox,passbox,error
@@ -26,11 +27,13 @@ def GET():
     else:
         error=tkinter.Label(bottomframe,text="Wrong Id / Password \n TRY AGAIN",fg="red",font="bold")
         error.pack()
-
+def appoint():
+    global guest
+    func()
 
 #LOGIN PAGE WINDOW
 def Entry():
-    global userbox,passbox,login,topframe,bottomframe,image_1
+    global userbox,passbox,login,guest,topframe,bottomframe,image_1
     root = tkinter.Tk()
     root.geometry("280x250")
     topframe = tkinter.Frame(root)
@@ -43,12 +46,14 @@ def Entry():
     password=tkinter.Label(bottomframe,text="PASSWORD")
     passbox = tkinter.Entry(bottomframe,show="*")
     login = tkinter.Button(bottomframe, text="LOGIN", command=GET,font="arial 8 bold")
+    guest = tkinter.Button(bottomframe, text="GUEST LOGIN", command=appoint,font="arial 8 bold")
     heading.pack()
     username.pack()
     userbox.pack()
     password.pack()
     passbox.pack()
     login.pack()
+    guest.pack()
     root.title("DATABASE LOGIN")
     root.mainloop()
 
