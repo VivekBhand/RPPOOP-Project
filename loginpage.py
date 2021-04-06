@@ -25,8 +25,11 @@ def GET():
     elif(S1=='vivek' and S2=='abcd'):
         menu()
     else:
-        error=tkinter.Label(bottomframe,text="Wrong Id / Password \n TRY AGAIN",fg="red",font="bold")
+        error=tkinter.Label(bottomframe,text="\tWrong Id / Password TRY AGAIN",fg="red",font="bold")
+        error.pack(side=tkinter.TOP)
         error.pack()
+        #error.place(x=200,y=300)
+    
 def appoint():
     global guest
     func()
