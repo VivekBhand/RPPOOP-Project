@@ -27,7 +27,7 @@ def ex():
 def menu():
     global root1,button1,button2,button3,button4,button5,m,button6
     root1=tkinter.Tk()
-    root1.geometry("280x350")
+    root1.geometry("400x350")
     root1.title("MAIN MENU")
     m=tkinter.Label(root1,text="MENU",font='Times 16 bold italic',fg='grey')
     button1=tkinter.Button(root1,text="1.PATIENT REGISTRATION",command=func,bg='light blue',fg='black')
