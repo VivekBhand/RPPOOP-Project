@@ -40,7 +40,7 @@ def Entry():
     topframe.pack()
     bottomframe=tkinter.Frame(root)
     bottomframe.pack()
-    heading = tkinter.Label(root, text="Welcome To UK Nursing",bg='white',fg='red',font='Times 20 bold italic')
+    heading = tkinter.Label(root, text="Welcome To Central Hospital",bg='white',fg='red',font='Times 20 bold italic')
     username=tkinter.Label(root,text="USERNAME")
     userbox = tkinter.Entry(root)
     password=tkinter.Label(root,text="PASSWORD")
