@@ -8,6 +8,8 @@ from menu import *
 
 #variables
 root=None
+rootr = None
+root2 = None
 userbox=None
 passbox=None
 topframe=None
@@ -38,12 +40,13 @@ def appoint():
 def Entry():
     global userbox,passbox,login,guest,topframe,bottomframe,image_1
     root = tkinter.Tk()
-    root.geometry("550x350")
+    root.geometry("640x350")
+    root.config(bg='steelblue')
     topframe = tkinter.Frame(root)
     topframe.pack()
     bottomframe=tkinter.Frame(root)
     bottomframe.pack()
-    heading = tkinter.Label(root, text="Welcome To Central Hospital",bg='white',fg='red',font='Times 20 bold italic')
+    heading = tkinter.Label(root, text="Welcome To Central Hospital",bg='steelblue',fg='black',font='Times 24')
     username=tkinter.Label(root,text="USERNAME")
     userbox = tkinter.Entry(root)
     password=tkinter.Label(root,text="PASSWORD")
