@@ -6,13 +6,13 @@
 For our project of "Hospital Management System", to store store patients appointments and to store information of hosptal employee, database system was required.
 We chose "Structered Query Language"  SQLite for our need.
 
-SQLite is a C library that provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language.
+SQLite is a C library used in python that provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language.
 
 To use SQLite3, sqlite3 is installed.
 
 
 
-Important SQLite3 library:
+Import SQLite3 library:
 ```python
 import sqlite3
 ```
