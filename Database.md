@@ -7,8 +7,10 @@ To use SQLite3, sqlite3 is installed.
 
 
 
-Important SQLite3 library: import sqlite3
-
+Important SQLite3 library:
+```python
+import sqlite3
+```
 Open .db file: 
 ```
 con = conn = sqlite3.connect('PATIENT APPOINTMENT RECORDS.db')
