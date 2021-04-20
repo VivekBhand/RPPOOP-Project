@@ -1,3 +1,8 @@
+# Database info
+
+
+### Hospital management system
+
 For our project of "Hospital Management System", to store store patients appointments and to store information of hosptal employee, database system was required.
 We chose "Structered Query Language"  SQLite for our need.
 
@@ -11,6 +16,7 @@ Important SQLite3 library:
 ```python
 import sqlite3
 ```
+## Patients Appointment
 Open .db file: 
 ```
 con = conn = sqlite3.connect('PATIENT APPOINTMENT RECORDS.db')
