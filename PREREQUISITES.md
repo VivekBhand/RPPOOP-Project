@@ -11,8 +11,19 @@
    
    pip install pysqlite3
    ```
-   ## Application to view .db browser
+   ## Application to view .db files
     DB Browser for SQLite
     
+   ## Import packages
    
+   ```python
+   from tkinter import *
+   import sqlite3
+   ```
+   
+   ## Operating System :
+    Windows 10
+    Ubuntu 20.04
+   
+   ## 
       
